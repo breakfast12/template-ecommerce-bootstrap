@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-bg {
+	background-color: #eee8e8;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.gambar {
+	height: 50px;
+	width: 100px;
+	margin-left: 50px;
+}
+
+.cari {
+  height: 39px;
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eff2f2;
+  margin-left: 100px;
+  font-family: "Josefin Sans", sans-serif;
+
+}
+
+@media (max-width: 900px) {
+	.cari {
+		margin-left: 10px;
+	}
+
+}
+
+@media (max-width: 390px) {
+	.cari {
+		width: 310px;
+	}
+}
+
+
+@media (max-width: 991px) {
+	.cari {
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+
+	.tombolcari {
+		margin-top: 10px;
+	}
+
+	.nav-coll {
+		border-top: 3px solid white;
+		margin-top: 5px;
+	}
+
+	.drop {
+		margin-top: 10px;
+	}
+
+
+}
+
+@media (max-width: 1004px) {
+	.cari {
+		margin-left: 30px;
+	}
+}
+
+@media (max-width: 1025px) {
+	.cari {
+		margin-left: 25px;
+	}
+}
+
+
+.tombolcari {
+	background-color: #edc32a;
+}
+
+@media (max-width: 450px) {
+	.tombolcari {
+		margin-top: 1px;
+		margin-left: 10px;
+	}
+ }
+
+.kaca {
+	height: 20px;
+	width: 20px;
+}
+
+.back-drop {
+	background-color: #eee8e8;
+	font-family: "Roboto", sans-serif;
+	font-size: 1em;
+}
+
+.pages-link {
+	color: #ededed;
+	font-family: "Roboto", sans-serif;
+}
+
+.menu-pages {
+	background-color: #38393a;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	margin-left: -5px;
+}
+
+.drop {
+	margin-left: 10px;
+}
+
+.gbruser {
+	height: 20px;
+	width: 20px;
+}
+
+.btn-user {
+	margin-left: 400px;
+}
+
+.menu-user {
+	margin-left: 289px;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	background-color: #38393a;
+}
+
+.user-link {
+	color: #ededed;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+@media (max-width: 320px) {
+	.cari {
+		width: 250px;
+	}
+}
+
+@media (max-width: 425px) {
+	.tombolcari {
+		margin-left: 23px;
+	}
+}
+
+@media (max-width: 900px) {
+	.btn-user {
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+
+	.menu-user {
+		margin-left: 10px;
+	}
+}
+
+@media (max-width: 991px) {
+	.btn-user {
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+
+	.menu-user {
+		margin-left: 10px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.btn-user {
+		margin-left: 80px;
+	}
+
+	.menu-user {
+		margin-left: -10px;
+	}
+}
+@media (max-width: 1350px) {
+	.btn-user {
+		margin-left: 100px;
+	}
+
+	.menu-user {
+		margin-left: -10px;
+	}
+}
+
+@media (max-width: 1004px) {
+	.btn-user {
+		margin-left: 80px;
+	}
+
+	.menu-user {
+		margin-left: -30px;
+	}	
+}
+
+@media (max-width: 780px) {
+	.btn-user {
+		margin-left: 10px;
+	}
+
+	.menu-user {
+		margin-left: 3px;
+	}
+}
+
+.bg-badge {
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.bag-shopping {
+	margin-left: 50px;
+}
+
+@media (max-width: 780px) {
+	.bag-shopping {
+		margin-left: 19px;
+	}	
+}
+
+.gbr-banner {
+	height: 550px;
+}
+
+.carousel-banner {
+	position: relative;
+	margin-top: 93px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 350px) {
+	.gbr-banner {
+		height: auto;
+	}
+}
+
+@media only screen and (device-width: 320px) {
+	.gbr-banner {
+		height: 140px;
+	}
+}
+
+@media only screen and (device-width: 375px) {
+	.gbr-banner {
+		width: 150px;
+		height: 190px;
+	}
+}
+
+@media only screen and (device-width: 425px) {
+	.gbr-banner {
+		width: 150px;
+		height: 250px;
+	}
+}
+
+@media only screen and (device-width: 768px) {
+	.gbr-banner {
+		width: 150px;
+		height: 310px;
+	}
+}
+
+.category {
+	margin-top: 50px;
+	margin-left: -50px;
+}
+
+@media only screen and (device-width: 1024px) {
+	.category {
+		margin-left: -20px;
+	}
+}
+
+@media only screen  and (device-width: 768px) {
+	.category {
+		margin-left: -5px;
+	}
+
+	.cat-tulisan {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (device-width: 320px) {
+	.category {
+		margin-top: 5px;
+		margin-left: auto;
+	}
+
+	.cat-tulisan {
+		font-size: 1em;
+		margin-left: -10px;
+	}
+
+
+}
+
+@media only screen and (device-width: 375px) {
+	.category {
+		margin-top: 5px;
+		margin-left: auto;
+	}
+
+	.cat-tulisan {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (device-width: 425px) {
+	.category {
+		margin-top: 5px;
+		margin-left: auto;
+	}
+
+	.cat-tulisan {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 350px) {
+	.category {
+		margin-top: 9px;
+		margin-left: auto;
+	}
+
+	.cat-tulisan {
+		font-size: 1em;
+	}
+}
+
+
+.cat {
+	margin-left: 50px;
+	padding: 10px;
+}
+
+.gbrcat {
+	height: 35px;
+	width: 35px;
+}
+
+.cat-link {
+	margin-left: -7px;
+	color: #17bf22;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.link:hover {
+	text-decoration: none;
+}
+
+.cat-link1 {
+	margin-left: -25px;
+	color: #17bf22;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.link1:hover {
+	text-decoration: none;
+}
+
+.cat-link2 {
+	margin-left: -25px;
+	color: #17bf22;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.link2:hover {
+	text-decoration: none;
+}
+
+.cat-link3 {
+	margin-left: -10px;
+	color: #17bf22;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.link3:hover {
+	text-decoration: none;
+}
+
+.best-offer {
+	margin-top: 70px;
+	margin-left: 10px;
+}
+
+.best-tulisan {
+	margin-left: -55px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 350px) {
+	.best-offer {
+		margin-top: 9px;
+		margin-left: auto;
+	}
+
+	.best-tulisan {
+		margin-left: 3px;
+		font-size: 1em;
+	}
+}
+
+
+
+#owl-demo {
+	background-color: #bf8913;
+	height: 250px;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.offer-name {
+	color: #a0fc1e;
+	margin-left: 20px;
+}
+
+.offer-price {
+	color: #a0fc1e;
+	margin-top: -20px;
+	margin-left: 50px;
+}
+
+.link-best:hover {
+	text-decoration: none;
+}
+
+.product {
+	margin: 10px;
+}
+
+.pro-image {
+	width: 200px;
+	height: 200px;
+	margin-top: 8px;
+}
+
+.product-tulisan {
+	margin-left: -50px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 350px) {
+	.product {
+		margin: auto;
+	}
+
+	.product-tulisan {
+		margin-left: 3px;
+		font-size: 1em;
+	}
+}
+
+.link-product:hover {
+	text-decoration: none;
+}
+
+.service {
+	margin: 10px;
+}
+
+.service-image {
+	width: 100px;
+	height: 100px;
+	margin-top: 100px;
+}
+
+.bg-footer {
+	background-color: #000;
+}
+
+.foot-tulisan {
+	color: #fff;
+	text-align: center;
+}
